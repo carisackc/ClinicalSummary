@@ -15,7 +15,8 @@ from string import punctuation
 # Gensim
 import gensim
 from gensim.summarization import summarize
-
+import spacy
+#nlp = spacy.load("en_core_web_sm")
 
 nlp = en_core_web_lg.load()
 
