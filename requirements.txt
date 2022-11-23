@@ -1,7 +1,6 @@
 # Our libraries
 spacy-legacy>=3.0.10,<3.1.0
 spacy-loggers>=1.0.0,<2.0.0
-en-core-web-lg==2.3.1
 cymem>=2.0.2,<2.1.0
 preshed>=3.0.2,<3.1.0
 thinc>=8.1.0,<8.2.0
