@@ -40,3 +40,4 @@ black>=22.0,<23.0
 datasets==1.11.0
 transformers==4.9.2
 torch
+git+https://github.com/r-lib/evaluate
