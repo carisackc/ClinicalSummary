@@ -4,7 +4,6 @@ from streamlit import components
 import pandas as pd
 from transformers import BartTokenizer, BartForConditionalGeneration
 from transformers import T5Tokenizer, T5ForConditionalGeneration
-!pip3 install evaluation
 import evaluate
 from datasets import load_dataset
 from transformers import AutoTokenizer, LongT5ForConditionalGeneration
