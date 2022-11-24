@@ -4,6 +4,8 @@ from streamlit import components
 import pandas as pd
 from transformers import BartTokenizer, BartForConditionalGeneration
 from transformers import T5Tokenizer, T5ForConditionalGeneration
+
+!pip install evaluation
 import evaluate
 from datasets import load_dataset
 from transformers import AutoTokenizer, LongT5ForConditionalGeneration
@@ -16,7 +18,6 @@ from string import punctuation
 import gensim
 from gensim.summarization import summarize
 import spacy
-#nlp = spacy.load("en_core_web_sm")
 
 nlp = en_core_web_lg.load()
 
