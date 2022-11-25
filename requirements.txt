@@ -1,4 +1,4 @@
-pytorch
+PyTorch
 streamlit==1.14.0
 pandas==1.3.5
 transformers
