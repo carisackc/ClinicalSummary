@@ -1,7 +1,7 @@
 pytorch
 streamlit==1.14.0
 pandas==1.3.5
-transformers==4.24.0.dev0
+transformers
 evaluate==0.3.0
 datasets==2.6.1
 numpy==1.21.6
